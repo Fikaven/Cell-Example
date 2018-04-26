@@ -12,6 +12,8 @@
 		ADDE29C920928EE900F44D56 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ADDE29C720928EE900F44D56 /* Main.storyboard */; };
 		ADDE29CB20928EEA00F44D56 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ADDE29CA20928EEA00F44D56 /* Assets.xcassets */; };
 		ADDE29CE20928EEA00F44D56 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ADDE29CC20928EEA00F44D56 /* LaunchScreen.storyboard */; };
+		ADDE29D7209290F000F44D56 /* MyCustomCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADDE29D5209290F000F44D56 /* MyCustomCell.swift */; };
+		ADDE29D8209290F000F44D56 /* MyCustomCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = ADDE29D6209290F000F44D56 /* MyCustomCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		ADDE29CA20928EEA00F44D56 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		ADDE29CD20928EEA00F44D56 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		ADDE29CF20928EEA00F44D56 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ADDE29D5209290F000F44D56 /* MyCustomCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyCustomCell.swift; sourceTree = "<group>"; };
+		ADDE29D6209290F000F44D56 /* MyCustomCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MyCustomCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,12 +60,22 @@
 			children = (
 				ADDE29C320928EE900F44D56 /* AppDelegate.swift */,
 				ADDE29C520928EE900F44D56 /* ViewController.swift */,
+				ADDE29D92092910700F44D56 /* Custom Cell */,
 				ADDE29C720928EE900F44D56 /* Main.storyboard */,
 				ADDE29CA20928EEA00F44D56 /* Assets.xcassets */,
 				ADDE29CC20928EEA00F44D56 /* LaunchScreen.storyboard */,
 				ADDE29CF20928EEA00F44D56 /* Info.plist */,
 			);
 			path = "Cell Example";
+			sourceTree = "<group>";
+		};
+		ADDE29D92092910700F44D56 /* Custom Cell */ = {
+			isa = PBXGroup;
+			children = (
+				ADDE29D5209290F000F44D56 /* MyCustomCell.swift */,
+				ADDE29D6209290F000F44D56 /* MyCustomCell.xib */,
+			);
+			path = "Custom Cell";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -124,6 +138,7 @@
 			files = (
 				ADDE29CE20928EEA00F44D56 /* LaunchScreen.storyboard in Resources */,
 				ADDE29CB20928EEA00F44D56 /* Assets.xcassets in Resources */,
+				ADDE29D8209290F000F44D56 /* MyCustomCell.xib in Resources */,
 				ADDE29C920928EE900F44D56 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -135,6 +150,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ADDE29D7209290F000F44D56 /* MyCustomCell.swift in Sources */,
 				ADDE29C620928EE900F44D56 /* ViewController.swift in Sources */,
 				ADDE29C420928EE900F44D56 /* AppDelegate.swift in Sources */,
 			);
